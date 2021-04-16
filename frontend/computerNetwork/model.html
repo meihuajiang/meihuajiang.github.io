@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>网络模型 | ゼロツー</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/favicon.jpg">
+    <meta name="description" content="zerotwo">
+    <link rel="preload" href="/assets/css/0.styles.f0b7ee7d.css" as="style"><link rel="preload" href="/assets/js/app.484f4375.js" as="script"><link rel="preload" href="/assets/js/2.ebbe98b4.js" as="script"><link rel="preload" href="/assets/js/42.b9200ca4.js" as="script"><link rel="prefetch" href="/assets/js/10.91de1805.js"><link rel="prefetch" href="/assets/js/100.1772503e.js"><link rel="prefetch" href="/assets/js/101.b569a1af.js"><link rel="prefetch" href="/assets/js/102.65dffa11.js"><link rel="prefetch" href="/assets/js/103.d7a8cd9e.js"><link rel="prefetch" href="/assets/js/104.0a0e3708.js"><link rel="prefetch" href="/assets/js/105.15bc167a.js"><link rel="prefetch" href="/assets/js/106.8487cf9a.js"><link rel="prefetch" href="/assets/js/107.2310b94b.js"><link rel="prefetch" href="/assets/js/108.781b7ebe.js"><link rel="prefetch" href="/assets/js/109.6225704a.js"><link rel="prefetch" href="/assets/js/11.9c44c6b2.js"><link rel="prefetch" href="/assets/js/110.3c39cb3c.js"><link rel="prefetch" href="/assets/js/111.22bede53.js"><link rel="prefetch" href="/assets/js/112.acb6b722.js"><link rel="prefetch" href="/assets/js/113.c2b6115e.js"><link rel="prefetch" href="/assets/js/114.cbeddf77.js"><link rel="prefetch" href="/assets/js/115.adf2d1b9.js"><link rel="prefetch" href="/assets/js/116.3f23eb5b.js"><link rel="prefetch" href="/assets/js/117.00cb8ac3.js"><link rel="prefetch" href="/assets/js/118.e88e1cfb.js"><link rel="prefetch" href="/assets/js/119.213aaa9b.js"><link rel="prefetch" href="/assets/js/12.878aa51b.js"><link rel="prefetch" href="/assets/js/120.fc12eb0e.js"><link rel="prefetch" href="/assets/js/121.67bafb52.js"><link rel="prefetch" href="/assets/js/122.cca49856.js"><link rel="prefetch" href="/assets/js/123.0e27eb9e.js"><link rel="prefetch" href="/assets/js/124.53383547.js"><link rel="prefetch" href="/assets/js/125.e103d7f1.js"><link rel="prefetch" href="/assets/js/126.adb34a41.js"><link rel="prefetch" href="/assets/js/127.f352dcec.js"><link rel="prefetch" href="/assets/js/128.9aa22460.js"><link rel="prefetch" href="/assets/js/129.02dabe8a.js"><link rel="prefetch" href="/assets/js/13.b4c5b1dd.js"><link rel="prefetch" href="/assets/js/130.7d88cb43.js"><link rel="prefetch" href="/assets/js/14.dce5d003.js"><link rel="prefetch" href="/assets/js/15.ec0f3b1f.js"><link rel="prefetch" href="/assets/js/16.a9597b38.js"><link rel="prefetch" href="/assets/js/17.c8f44f51.js"><link rel="prefetch" href="/assets/js/18.67e67934.js"><link rel="prefetch" href="/assets/js/19.2b8ea36f.js"><link rel="prefetch" href="/assets/js/20.ee5ab76e.js"><link rel="prefetch" href="/assets/js/21.1582f8ed.js"><link rel="prefetch" href="/assets/js/22.130fb5fa.js"><link rel="prefetch" href="/assets/js/23.ecbb4b5d.js"><link rel="prefetch" href="/assets/js/24.0c8b3ecd.js"><link rel="prefetch" href="/assets/js/25.4aae22ea.js"><link rel="prefetch" href="/assets/js/26.4816aa3d.js"><link rel="prefetch" href="/assets/js/27.2e6f0659.js"><link rel="prefetch" href="/assets/js/28.7e0fef24.js"><link rel="prefetch" href="/assets/js/29.dad88d85.js"><link rel="prefetch" href="/assets/js/3.5e8d6a69.js"><link rel="prefetch" href="/assets/js/30.1ecf79ca.js"><link rel="prefetch" href="/assets/js/31.0a97fafc.js"><link rel="prefetch" href="/assets/js/32.8e6151d1.js"><link rel="prefetch" href="/assets/js/33.b5ff95d1.js"><link rel="prefetch" href="/assets/js/34.0d03faf5.js"><link rel="prefetch" href="/assets/js/35.6d4b4665.js"><link rel="prefetch" href="/assets/js/36.b42cbedf.js"><link rel="prefetch" href="/assets/js/37.4de10dce.js"><link rel="prefetch" href="/assets/js/38.9031eb30.js"><link rel="prefetch" href="/assets/js/39.daee868f.js"><link rel="prefetch" href="/assets/js/4.ceb8a314.js"><link rel="prefetch" href="/assets/js/40.df374a26.js"><link rel="prefetch" href="/assets/js/41.563436c6.js"><link rel="prefetch" href="/assets/js/43.40ae12a3.js"><link rel="prefetch" href="/assets/js/44.4a0dd48e.js"><link rel="prefetch" href="/assets/js/45.20d657cc.js"><link rel="prefetch" href="/assets/js/46.2d34fe10.js"><link rel="prefetch" href="/assets/js/47.3dcb2d38.js"><link rel="prefetch" href="/assets/js/48.1b0959df.js"><link rel="prefetch" href="/assets/js/49.6652f2b2.js"><link rel="prefetch" href="/assets/js/5.b28c76e0.js"><link rel="prefetch" href="/assets/js/50.30bdc802.js"><link rel="prefetch" href="/assets/js/51.ebe5930a.js"><link rel="prefetch" href="/assets/js/52.02f2caf4.js"><link rel="prefetch" href="/assets/js/53.55df3fc5.js"><link rel="prefetch" href="/assets/js/54.e2bff3b5.js"><link rel="prefetch" href="/assets/js/55.c859c458.js"><link rel="prefetch" href="/assets/js/56.d493a61b.js"><link rel="prefetch" href="/assets/js/57.9af46dbf.js"><link rel="prefetch" href="/assets/js/58.46d4e8aa.js"><link rel="prefetch" href="/assets/js/59.82e453fe.js"><link rel="prefetch" href="/assets/js/6.b43fc5c2.js"><link rel="prefetch" href="/assets/js/60.d9652552.js"><link rel="prefetch" href="/assets/js/61.bad1d82a.js"><link rel="prefetch" href="/assets/js/62.8c307334.js"><link rel="prefetch" href="/assets/js/63.7ebafb7e.js"><link rel="prefetch" href="/assets/js/64.bc588101.js"><link rel="prefetch" href="/assets/js/65.6f66d6a2.js"><link rel="prefetch" href="/assets/js/66.ee6f0d41.js"><link rel="prefetch" href="/assets/js/67.0002a9a5.js"><link rel="prefetch" href="/assets/js/68.4a86ea26.js"><link rel="prefetch" href="/assets/js/69.c9e36070.js"><link rel="prefetch" href="/assets/js/7.87b3f924.js"><link rel="prefetch" href="/assets/js/70.40af8c94.js"><link rel="prefetch" href="/assets/js/71.ee207bd6.js"><link rel="prefetch" href="/assets/js/72.c389068e.js"><link rel="prefetch" href="/assets/js/73.c1526d9c.js"><link rel="prefetch" href="/assets/js/74.cd1c9d32.js"><link rel="prefetch" href="/assets/js/75.144c1f5b.js"><link rel="prefetch" href="/assets/js/76.4c36bfbf.js"><link rel="prefetch" href="/assets/js/77.7db5b3f1.js"><link rel="prefetch" href="/assets/js/78.de99e748.js"><link rel="prefetch" href="/assets/js/79.1febcdca.js"><link rel="prefetch" href="/assets/js/8.ab13bda4.js"><link rel="prefetch" href="/assets/js/80.e802c8bb.js"><link rel="prefetch" href="/assets/js/81.960e4a52.js"><link rel="prefetch" href="/assets/js/82.9a35963d.js"><link rel="prefetch" href="/assets/js/83.005e1aad.js"><link rel="prefetch" href="/assets/js/84.d61f7f01.js"><link rel="prefetch" href="/assets/js/85.0906b75c.js"><link rel="prefetch" href="/assets/js/86.dff86ecd.js"><link rel="prefetch" href="/assets/js/87.00755e79.js"><link rel="prefetch" href="/assets/js/88.00604a67.js"><link rel="prefetch" href="/assets/js/89.376832c9.js"><link rel="prefetch" href="/assets/js/9.b83e9e02.js"><link rel="prefetch" href="/assets/js/90.9be39541.js"><link rel="prefetch" href="/assets/js/91.d5eb29c9.js"><link rel="prefetch" href="/assets/js/92.9f5fba68.js"><link rel="prefetch" href="/assets/js/93.670dcf5c.js"><link rel="prefetch" href="/assets/js/94.9d783387.js"><link rel="prefetch" href="/assets/js/95.0fd08cc1.js"><link rel="prefetch" href="/assets/js/96.ae0eb4f1.js"><link rel="prefetch" href="/assets/js/97.1d15ea38.js"><link rel="prefetch" href="/assets/js/98.1bc97ef6.js"><link rel="prefetch" href="/assets/js/99.d91a7a9f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f0b7ee7d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="./favicon.jpg" alt="ゼロツー" class="logo"> <span class="site-name can-hide">ゼロツー</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/html/" class="nav-link">
+  HTML
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  VUE
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/miniProgram/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/mobile/" class="nav-link">
+  移动端
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/ts/" class="nav-link">
+  TS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/node/" class="nav-link">
+  NODE
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/native/" class="nav-link">
+  原生开发
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其余" class="dropdown-title"><span class="title">其余</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/computerNetwork/" class="nav-link router-link-active">
+  计算机网络
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/browser/" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/performance/" class="nav-link">
+  性能
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/safety/" class="nav-link">
+  安全
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/axios/" class="nav-link">
+  axios
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/API/" class="nav-link">
+  api
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="代码" class="dropdown-title"><span class="title">代码</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/code/" class="nav-link">
+  手写源码
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/algorithm/" class="nav-link">
+  编码和算法
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/leetcode/" class="nav-link">
+  leetcode
+</a></li></ul></div></div><div class="nav-item"><a href="/frontend/others/" class="nav-link">
+  开发
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Note" class="dropdown-title"><span class="title">Note</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/os/" class="nav-link">
+  os
+</a></li><li class="dropdown-item"><!----> <a href="/markdown/" class="nav-link">
+  md
+</a></li><li class="dropdown-item"><!----> <a href="/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/linux/" class="nav-link">
+  linux
+</a></li><li class="dropdown-item"><!----> <a href="/view/" class="nav-link">
+  view
+</a></li><li class="dropdown-item"><!----> <a href="/server/" class="nav-link">
+  server
+</a></li><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  guide
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/js/" class="nav-link">
+  JS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/html/" class="nav-link">
+  HTML
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/vue/" class="nav-link">
+  VUE
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/miniProgram/" class="nav-link">
+  小程序
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/mobile/" class="nav-link">
+  移动端
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/ts/" class="nav-link">
+  TS
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/node/" class="nav-link">
+  NODE
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/native/" class="nav-link">
+  原生开发
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其余" class="dropdown-title"><span class="title">其余</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/computerNetwork/" class="nav-link router-link-active">
+  计算机网络
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/browser/" class="nav-link">
+  浏览器
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/performance/" class="nav-link">
+  性能
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/safety/" class="nav-link">
+  安全
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/axios/" class="nav-link">
+  axios
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/API/" class="nav-link">
+  api
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="代码" class="dropdown-title"><span class="title">代码</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend/code/" class="nav-link">
+  手写源码
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/algorithm/" class="nav-link">
+  编码和算法
+</a></li><li class="dropdown-item"><!----> <a href="/frontend/leetcode/" class="nav-link">
+  leetcode
+</a></li></ul></div></div><div class="nav-item"><a href="/frontend/others/" class="nav-link">
+  开发
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Note" class="dropdown-title"><span class="title">Note</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/os/" class="nav-link">
+  os
+</a></li><li class="dropdown-item"><!----> <a href="/markdown/" class="nav-link">
+  md
+</a></li><li class="dropdown-item"><!----> <a href="/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/linux/" class="nav-link">
+  linux
+</a></li><li class="dropdown-item"><!----> <a href="/view/" class="nav-link">
+  view
+</a></li><li class="dropdown-item"><!----> <a href="/server/" class="nav-link">
+  server
+</a></li><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  guide
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>computerNetwork</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/frontend/computerNetwork/" aria-current="page" class="sidebar-link">首页</a></li><li><a href="/frontend/computerNetwork/computerNetwork.html" class="sidebar-link">计算机网络基础</a></li><li><a href="/frontend/computerNetwork/http.html" class="sidebar-link">HTTP相关</a></li><li><a href="/frontend/computerNetwork/httpCode.html" class="sidebar-link">状态码</a></li><li><a href="/frontend/computerNetwork/model.html" aria-current="page" class="active sidebar-link">网络模型</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontend/computerNetwork/model.html#tcp-ip四层模型" class="sidebar-link">TCP/IP四层模型</a></li><li class="sidebar-sub-header"><a href="/frontend/computerNetwork/model.html#osi七层模型" class="sidebar-link">OSI七层模型</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="tcp-ip四层模型"><a href="#tcp-ip四层模型" class="header-anchor">#</a> TCP/IP四层模型</h2> <p>TCP/IP 四层模型</p> <table><thead><tr><th>层</th> <th>描述</th></tr></thead> <tbody><tr><td>应用层</td> <td>应用层处于四层模型的顶部，决定了向用户提供应用服务时通信的活动。简单来说就是，这一层是直接作用在你的操作系统内核中，用于会话管理、数据加密/解密、为应用程序提供服务等。</td></tr> <tr><td>传输层</td> <td>建立、维护、管理网络连接中两台计算机端到端的数据传输。我们常说的TCP/UDP就是作用于这一层。</td></tr> <tr><td>网络层</td> <td>处理网络上流动的数据包。规定了通过怎样的路径到达对方计算机，并把数据包传送给对方（IP选址、路由选择）。</td></tr> <tr><td>链路层</td> <td>用来处理链接网络的硬件部分，包括控制操作系统、驱动、网卡等等。</td></tr></tbody></table> <h2 id="osi七层模型"><a href="#osi七层模型" class="header-anchor">#</a> OSI七层模型</h2> <ul><li><p>物理层：</p> <p>主要功能：利用传输介质为数据链路层提供物理连接，实现比特流的透明传输。</p> <p>作用：实现相邻计算机节点之间比特流的透明传输，尽可能屏蔽掉具体传输介质与物理设备的差异。使其上面的数据链路层不必考虑网络的具体传输介质是什么。</p> <p>透明传输的意义就是：不管传的是什么，所采用的设备只是起一个通道作用，把要传输的内容完好的传到对方！</p></li> <li><p>数据链路层：负责建立和管理节点间的链路。</p> <p>主要功能：通过各种控制协议，将有差错的物理信道变为无差错的、能可靠传输数据帧的数据链路。</p> <p>具体工作：接受来自物理层的位流形式的数据，并封装成帧，传送到上一层；同样，也将来自上一层的数据帧，拆装为位流形式的数据转发到物理层；并且还负责处理接受端发回的确认帧的信息，以便提供可靠的数据传输。</p> <p>该层通常又被分为介质访问控制(MAC)和逻辑链路控制(LLC)两个子层：</p> <ul><li>MAC子层的主要任务是解决共享型网络中多用户对信道竞争的问题，完成网络介质的访问控制。</li> <li>LLC子层的主要任务是建立和维护网络连接，执行差错校验、流量控制和链路控制。</li></ul></li> <li><p>网络层：是OSI参考模型中最复杂的一层，也是通信子网最高的一层，它在下两层的基础上向资源子网提供服务。</p> <p>主要任务：通过路由算法，为报文或分组通过通信子网选择最适当的路径。该层控制数据链路层与物理层之间的信息转发，建立、维持与终止网络的连接。具体的说，数据链路层的数据在这一层被转换为数据包，然后通过路径选择、分段组合、顺序、进/出路由等控制，将信息从一个网络设备传送到另一个网络设备。</p> <p>一般的，数据链路层是解决统一网络内节点之间的通信，而网络层主要解决不同子网之间的通信。例如路由选择问题。</p> <p>在实现网络层功能时，需要解决的主要问题如下：</p> <ul><li><p>寻址：</p> <p>数据链路层中使用的物理地址（如MAC地址）仅解决网络内部的寻址问题。在不同子网之间通信时，为了识别和找到网络中的设备，每一子网中的设备都会被分配一个唯一的地址。由于各个子网使用的物理技术可能不同，因此这个地址应当是逻辑地址（如IP地址）</p></li> <li><p>交换：</p> <p>规定不同的交换方式。常见的交换技术有：线路交换技术和存储转发技术，后者包括报文转发技术和分组转发技术。</p></li> <li><p>路由算法：</p> <p>当源节点和路由节点之间存在多条路径时，本层可以根据路由算法，通过网络为数据分组选择最佳路径，并将信息从最合适的路径，由发送端传送的接受端。</p></li> <li><p>连接服务：</p> <p>与数据链路层的流量控制不同的是，前者控制的是网络相邻节点间的流量，后者控制的是从源节点到目的节点间的流量。其目的在于防止阻塞，并进行差错检测</p></li></ul></li> <li><p>传输层：</p> <p>OSI的下三层的主要任务是数据传输，上三层的主要任务是数据处理。而传输层是第四层，因此该层是通信子网和资源子网的接口和桥梁，起到承上启下的作用。</p> <p>主要任务：向用户提供可靠的、端到端的差错和流量控制，保证报文的正确传输。</p> <p>主要作用：向高层屏蔽下层数据通信的具体细节，即向用户透明的传送报文。</p> <p>传输层提供会话层和网络层之间的传输服务，这种服务从会话层获得数据，并在必要时，对数据进行分割，然后，传输层将数据传送到网络层，并确保数据能准确无误的传送到网络层。因此，传输层负责提供两节点之间数据的可靠传送，当两节点的联系确定之后，传输层负责监督工作。</p> <p>传输层的主要功能：</p> <ul><li><p>传输连接管理：</p> <p>提供建立、连接和拆除传输连接的功能。传输层在网络层的基础上，提供“面向连接”和“面向无连接”两种服务</p></li> <li><p>处理传输差错：</p> <p>提供可靠的“面向连接”和不可靠的“面向无连接”的数据传输服务、差错控制和流量控制。在提供“面向连接”服务时，通过这一层传输的数据将由目标设备确认，如果在指定的时间内未收到确认信息，数据将被重新发送。</p></li> <li><p>监控服务质量</p></li></ul></li> <li><p>会话层：是OSI参考模型的第五层，是用户应用程序和网络之间的接口</p> <p>主要任务：向两个实体的表示层提供建立和使用连接的方法。将不同实体之间的表示层的连接称为会话。因此会话层的任务就是组织和协调两个会话进程之间的通信，并对数据交换进行管理。</p> <p>用户可以按照半双工、单工和全工的方式建立会话。当建立会话时，用户必须提供他们想要连接的远程地址。而这些地址与MAC（介质访问控制子层）地址或网络层的逻辑地址不同，他们是为用户专门设计的，更便于用户记忆。域名(DN)就是网络上使用的远程地址。</p> <p>会话层的具体功能如下：</p> <ul><li><p>会话管理：</p> <p>允许用户在两个实体设备之间建立、维持和终止会话，并支持它们之间的数据交换。例如提供单方向会话或双向同时会话，并管理会话中的发送顺序，以及会话所占用时间的长短。</p></li> <li><p>会话流量控制：</p> <p>提供流量控制和交叉会话功能。</p></li> <li><p>寻址：</p> <p>使用远程地址建立会话连接。</p></li> <li><p>出错控制：</p> <p>从逻辑上讲，会话层主要负责数据交换的建立、保持和终止，但实际的工作却是接收来自传输层的数据，并负责纠错。会话控制和远程过程调用均属于这一层的功能。但应注意，此层检查的错误不是通信介质的错误，而是磁盘空间、打印机缺纸等高级类的错误。</p></li></ul></li> <li><p>表示层：</p> <p>表示层是OSI模型的第六层，它对来自应用层的命令和数据进行解释，对各种语法赋予相应的含义，并按照一定的格式传送给会话层。</p> <p>其主要功能是“处理用户信息的表示问题，如编码、数据格式转换和加密解密”等。</p> <p>表示层的具体功能如下：</p> <ul><li><p>数据格式处理：</p> <p>协商和建立数据交换的格式，解决各应用程序之间在数据格式表示上的差异。</p></li> <li><p>数据的编码：</p> <p>处理字符集和数字的转换。例如由于用户程序中的数据类型（整型或实型、有符号或无符号等）、用户标识等都可以有不同的表示方式，因此，在设备之间需要具有在不同字符集或格式之间转换的功能。</p></li> <li><p>压缩和解压缩：</p> <p>为了减少数据的传输量，这一层还负责数据的压缩与恢复。</p></li> <li><p>数据的加密和解密：</p> <p>可以提高网络的安全性。</p></li></ul></li> <li><p>应用层</p> <p>应用层是OSI参考模型的最高层，它是计算机用户，以及各种应用程序和网络之间的接口。</p> <p>主要功能：直接向用户提供服务，完成用户希望在网络上完成的各种工作。它在其他6层工作的基础上，负责完成网络中应用程序与网络操作系统之间的联系，建立与结束使用者之间的联系，并完成网络用户提出的各种网络服务及应用所需的监督、管理和服务等各种协议。</p> <p>此外，该层还负责协调各个应用程序间的工作。</p> <p>应用层为用户提供的服务和协议有：文件服务、目录服务、文件传输服务（FTP）、远程登录服务（Telnet）、电子邮件服务（E-mail）、打印服务、安全服务、网络管理服务、数据库服务等。上述的各种网络服务由该层的不同应用协议和程序完成，不同的网络操作系统之间在功能、界面、实现技术、对硬件的支持、安全可靠性以及具有的各种应用程序接口等各个方面的差异是很大的。</p> <p>应用层的主要功能如下：</p> <ul><li><p>用户接口：</p> <p>应用层是用户与网络，以及应用程序与网络间的直接接口，使得用户能够与网络进行交互式联系。</p></li> <li><p>实现各种服务：</p> <p>该层具有的各种应用程序可以完成和实现用户请求的各种服务。</p></li></ul></li></ul> <p><img src="/img/750327-20160822164857776-669486844.gif" alt="OSI模型"></p> <h3 id="各层协议总结"><a href="#各层协议总结" class="header-anchor">#</a> 各层协议总结</h3> <ul><li>应用层
+<ul><li>HTTP</li> <li>HTTPS</li> <li>FTP，文件传输协议，是网络共享文件的传输协议</li> <li>TELNET，TCP/IP中断仿真协议</li> <li>SMTP，简单邮件传输协议</li> <li>POP3，邮局协议第三版</li> <li>DHCP，动态主机配置协议</li> <li>DNS，域名系统</li></ul></li> <li>表示层
+<ul><li>LPP，轻量级表示协议</li></ul></li> <li>会话层
+<ul><li>SSL，安全套接字层协议</li> <li>TLS，传输层安全协议</li></ul></li> <li>传输层
+<ul><li>TCP</li> <li>UDP</li></ul></li> <li>网络层
+<ul><li>IP</li> <li>IPv6</li> <li>RIP，路由信息协议</li> <li>OSPF，开放最短路径协议</li></ul></li> <li>数据链路层
+<ul><li>ARP，地址解析协议</li> <li>RARP</li></ul></li> <li>物理层
+<ul><li>IEEE 802.2</li></ul></li></ul> <h3 id="ping-属于哪一层？ping-127-0-0-1-有什么作用？"><a href="#ping-属于哪一层？ping-127-0-0-1-有什么作用？" class="header-anchor">#</a> PING 属于哪一层？ping 127.0.0.1 有什么作用？</h3> <p>ping是应用程序，而不是协议。它是用来利用ICMP报文监测网络连接，是调试网络环境的必备工具。</p> <blockquote><p>不用经过传输层</p></blockquote> <p>127.0.0.1为本地环回地址，能ping通，说明TCP/IP协议栈没问题！</p> <p>ping 本地ip 检查网卡是否工作正常</p> <h3 id="各层设备"><a href="#各层设备" class="header-anchor">#</a> 各层设备</h3> <ul><li><p>网络层</p> <ul><li><p>第三层交换机(layer3 switch)：能进行路由的交换机，具有一部分路由器功能。</p></li> <li><p>路由器(router)：连接因特网中各局域网、广域网的设备。拥有路由选择处理机、交换结构、一组输入端口和一组输出端口。</p></li></ul></li> <li><p>数据链路层</p> <ul><li><p>适配器：又称网络接口卡NIC(Network Interface Card)，或网卡。用于计算机和局域网的通信。</p></li> <li><p>网桥(bridge)：连接两个局域网之间的桥梁。用于在数据链路层扩展以太网，根据MAC帧的目的地址对收到的帧进行转发和过滤。含有转发表。它隔离了冲突域，但不隔离广播域。端口以共享存储空间方式连接。</p></li> <li><p>第二层交换机(layer2 switch)：多接口的网桥，又称以太网交换机或第二层交换机。可实现虚拟局域网VLAN(Virtual LAN)。以硬件方式实现多个端口的并发连接。可以隔离冲突域和广播域</p></li></ul></li> <li><p>物理层</p> <ul><li>转发器(repeater)：有源转发器将信号解调后再生放大，再调制后传输。</li> <li>集线器(hub)：集线器就是有多个端口的中继器。 集线器不隔离冲突域，也就是说，任何进入的数据都会被其从所有端口（除了进来的那个端口）转发</li> <li>中继器：在两个节点之间，将信号放大传输，加强基带信号，用于传输数字信号</li></ul></li></ul> <h3 id="路由表-rip-和-ospf-优先级"><a href="#路由表-rip-和-ospf-优先级" class="header-anchor">#</a> 路由表 RIP 和 OSPF 优先级</h3> <p>OSPF内部路由比RIP优先级高，但OSPF外部路由比RIP优先级低</p> <p>因为不同协议，通常用于不同自治系统，也可说是不同公司的网络，对于内部网来说，通常是可信任的，所以优先级高，对于外部网来说，通常可信度低，所以优先级低，这就是OSPF外部路由比RIP要低的原因</p> <h3 id="常见端口"><a href="#常见端口" class="header-anchor">#</a> 常见端口</h3> <table><thead><tr><th>端口</th> <th>协议</th></tr></thead> <tbody><tr><td>20</td> <td>(FTP文件传输协议数据连接端口)/TCP</td></tr> <tr><td>21</td> <td>(FTP文件传输协议控制连接端口)/TCP</td></tr> <tr><td>22</td> <td>(SSH远程登陆)/TCP</td></tr> <tr><td>23</td> <td>(Telnet远程登陆)/TCP</td></tr> <tr><td>25</td> <td>(SMTP电子邮件传输协议)/TCP</td></tr> <tr><td>53</td> <td>(DNS域名系统)/TCP-UDP</td></tr> <tr><td>67</td> <td>(DHCP服务器接收请求的端口)/UDP</td></tr> <tr><td>68</td> <td>(DHCP客户机接收回应的端口)/UDP</td></tr> <tr><td>69</td> <td>(TFTP简单文件传输协议)/UDP</td></tr> <tr><td>80</td> <td>(HTTP超文本传输协议)/TCP</td></tr> <tr><td>109</td> <td>(POP2邮局协议2)/TCP</td></tr> <tr><td>110</td> <td>(POP3邮局协议3)/TCP</td></tr> <tr><td>179</td> <td>(BGP边界网关协议)</td></tr> <tr><td>443</td> <td>(HTTPS,基于TLS/SSL的网页浏览端口)</td></tr> <tr><td>614</td> <td>(SSL(加密套接字协议层))</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/frontend/computerNetwork/httpCode.html" class="prev">
+        状态码
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.484f4375.js" defer></script><script src="/assets/js/2.ebbe98b4.js" defer></script><script src="/assets/js/42.b9200ca4.js" defer></script>
+  </body>
+</html>
